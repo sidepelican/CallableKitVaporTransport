@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "CallableKitVaporTransport", targets: ["CallableKitVaporTransport"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sidepelican/CallableKit.git", from: "2.0.0-alpha.1"),
+        .package(url: "https://github.com/sidepelican/CallableKit.git", from: "2.0.0"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.106.7"),
     ],
     targets: [
